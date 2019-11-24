@@ -4,14 +4,13 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
-# steam_app 'install steam app' do
-#   action :install
-# end
+steam_app 'install steam app' do
+  action :install
+end
 
-# vlc_app 'install vlc' do
-#   version '1.2.3'
-#   action :install
-# end
+vlc_app 'install vlc' do
+  action :install
+end
 
 seven_zip_tool '7z 15.14 install' do
   action    [:install, :add_to_path]
