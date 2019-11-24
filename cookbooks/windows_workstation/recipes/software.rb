@@ -20,3 +20,11 @@ seven_zip_tool '7z 15.14 install' do
   source    'http://www.7-zip.org/a/7z1514.msi'
   checksum  'eaf58e29941d8ca95045946949d75d9b5455fac167df979a7f8e4a6bf2d39680'
 end
+
+chrome 'set_user_preferences' do
+  cookbook 'chrome'
+  parameters(
+    homepage: 'https://www.google.com'
+  )
+  action :master_preferences
+end

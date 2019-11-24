@@ -18,3 +18,5 @@ cookbook 'windows_workstation', path: '.'
 cookbook 'seven_zip', '= 3.1.2', :supermarket
 
 cookbook 'notepadpp', '= 2.0.0', :supermarket
+
+cookbook 'chrome', '= 4.0.2', :supermarket
