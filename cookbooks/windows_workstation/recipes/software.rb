@@ -4,9 +4,9 @@
 #
 # Copyright:: 2019, The Authors, All Rights Reserved.
 
-steam_app 'install steam app' do
-  action :install
-end
+# steam_app 'install steam app' do
+#   action :install
+# end
 
 vlc_app 'install vlc' do
   action :install
