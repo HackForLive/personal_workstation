@@ -24,3 +24,5 @@ cookbook 'chrome', '= 4.0.2', :supermarket
 cookbook 'vlc', '= 1.1.0', :supermarket
 
 cookbook 'steam', '= 2.1.0', :supermarket
+
+cookbook 'dmg', '= 4.1.1', :supermarket
