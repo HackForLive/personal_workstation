@@ -10,10 +10,12 @@ name 'windows_workstation'
 default_source :supermarket
 
 # run_list: chef-client will run these recipes in the order specified.
-run_list 'windows_workstation::install_software' # 'notepadpp::default'
+run_list 'windows_workstation::install_software', 'chocolatey::default' # 'notepadpp::default'
 
 # Specify a custom source for a single cookbook:
 cookbook 'windows_workstation', path: '.'
+
+cookbook 'chocolatey', '~> 2.0.1', :supermarket
 
 # cookbook 'seven_zip', '= 3.1.2', :supermarket
 
