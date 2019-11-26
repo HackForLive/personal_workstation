@@ -1,1 +1,1 @@
-default['vlc']['app']['version'] = '3.0.8'
+default['chocolatey']['packages'] = %w(googlechrome 7zip vlc notepadplusplus git openssh autohotkey sysinternals ccleaner foxitreader python3 winscp keepass awscli vscode virtualbox wireshark dotnetcore-sdk)
