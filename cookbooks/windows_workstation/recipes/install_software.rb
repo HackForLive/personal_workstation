@@ -28,7 +28,7 @@
 #   action :master_preferences
 # end
 
-%w(googlechrome 7zip vlc notepadplusplus git openssh autohotkey sysinternals ccleaner foxitreader python3 choco install winscp keepass awscli vscode virtualbox wireshark).each do |package_name|
+%w(googlechrome 7zip vlc notepadplusplus git openssh autohotkey sysinternals ccleaner foxitreader python3 winscp keepass awscli vscode virtualbox wireshark).each do |package_name|
   chocolatey_package package_name do
     action :install
   end
