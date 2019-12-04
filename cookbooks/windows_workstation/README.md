@@ -1,7 +1,7 @@
 windows_workstation
 =============================================
 
-Windows_workstation cookbook provides smooth way to manage software packages on Windows workstations without manual installation steps. The list of software packages to be installed and maintained is configurable and boostraping new workstation is pretty easy.
+Windows_workstation cookbook provides simple way to manage software packages on Windows workstations without manual installation steps. The list of software packages to be installed and maintained is configurable and boostraping new workstation is pretty easy.
 
 ## Bootstrap new Chef node
 

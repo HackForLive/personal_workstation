@@ -1,1 +1,1 @@
-default['chocolatey']['packages'] = %w(googlechrome 7zip vlc notepadplusplus git openssh autohotkey sysinternals ccleaner foxitreader python3 winscp keepass awscli vscode virtualbox wireshark dotnetcore-sdk)
+default['chocolatey']['packages'] = %w(nodejs googlechrome 7zip vlc notepadplusplus git openssh autohotkey sysinternals ccleaner foxitreader python3 winscp keepass awscli vscode virtualbox wireshark dotnetcore-sdk)
